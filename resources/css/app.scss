@@ -1,11 +1,63 @@
-HTML,
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    height: 100vh;
-}
-@import "welcome";
+// HTML,
+// body {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+//     overflow-x: hidden;
+//     height: 100vh;
+// }
+// @import "welcome";
 
-@import "exercises"
+// @import "exercises";
+
+/* Define SCSS variables for colors */
+$primary-color: #3498db;
+$secondary-color: #e74c3c;
+$background-color: #f7f7f7;
+$text-color: #333;
+
+/* Create an SCSS class for container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: $background-color;
+    padding: 20px;
+}
+
+/* Create an SCSS class for header */
+.header {
+    background-color: $primary-color;
+    color: $text-color;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Create an SCSS class for hero */
+.hero {
+    background-image: url("placeholder-image-url.jpg"); /* Replace with your image URL */
+    background-size: cover;
+    padding: 100px 0;
+    color: $text-color;
+    text-align: center;
+}
+
+/* Create an SCSS class for feature */
+.feature {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff; /* Customize as needed */
+
+    .icon {
+        /* Define styles for the icon here */
+        /* Example: background-image: url('icon-url.png'); */
+    }
+}
+
+/* Create an SCSS class for cta (Call to Action) */
+.cta {
+    background-color: $secondary-color;
+    color: $text-color;
+    padding: 20px 0;
+    text-align: center;
+}

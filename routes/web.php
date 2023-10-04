@@ -21,3 +21,7 @@ Route::get('/', function () {
 Route::get('/exercises', function () {
     return view('exercises');
 });
+
+Route::get('/variables', function () {
+    return view('variables');
+});

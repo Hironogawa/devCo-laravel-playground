@@ -14,9 +14,34 @@
         @vite(['resources/css/app.scss', 'resources/js/app.js'])
 
     </head>
-    <body class="test">
-        <div class="inner">
-            <h1>Hello World</h1>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1>Startup Name</h1>
+            </header>
+            <section class="hero">
+                <h2>Welcome to Our Startup</h2>
+                <p>Discover amazing products and services that will change your life.</p>
+            </section>
+            <section class="feature">
+                <div class="icon"></div>
+                <h3>Feature 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </section>
+            <section class="feature">
+                <div class="icon"></div>
+                <h3>Feature 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </section>
+            <section class="feature">
+                <div class="icon"></div>
+                <h3>Feature 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </section>
+            <section class="cta">
+                <h2>Sign Up Today</h2>
+                <p>Join our amazing community and experience the future.</p>
+            </section>
         </div>
     </body>
 </html>
