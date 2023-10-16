@@ -126,7 +126,7 @@ Error starting userland proxy: listen tcp4 0.0.0.0:3306: bind: address already i
 Check what is using port 3306:
 
 ```bash
-sudo netstat -nlpt |grep 3306
+sudo netstat -tulpn | grep ':3306'
 ```
 
 Stop the service on port 3306, in this case mysql:
@@ -236,5 +236,5 @@ body {
     }
 }
 ```
-# Sass exercises
 
+# Sass exercises
